@@ -1,0 +1,30 @@
+.techStack {
+    max-width: 1600px;
+    padding: 4rem 2rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+  }
+  
+  .tech {
+    padding: 2rem;
+    transition: transform 0.3s ease;
+    width: 15rem;
+  }
+  
+  
+  .tech:hover {
+    transform: translateY(-5px);
+  }
+  
+  .tech i {
+    font-size: 3rem;
+  }
+  
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
