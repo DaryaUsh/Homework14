@@ -112,9 +112,10 @@
     :root {
       --container-width: 720px;
     }
+    
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 868px) {
     :root {
       --container-width: 540px;
       --spacing-md: 1.5rem;

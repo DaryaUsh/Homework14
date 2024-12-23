@@ -1,5 +1,6 @@
   .tape {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     gap: 2rem;
     background-color: #1C1C21;

@@ -1,5 +1,4 @@
 .hero {
-
     display: flex;
     justify-content:space-around;
     padding: 0rem 8rem;
@@ -39,9 +38,25 @@
     height: 300px;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 868px) {
     .hero {
-      grid-template-columns: 1fr;
+      display: grid;
+      /* grid-template-columns: 1fr; */
+      gap: 20px;
       text-align: center;
     }
+
+    .image {
+      display: none;
+    }
+
+    .content h2 {
+      font-size: 24px;
   }
+
+    .button {
+      max-width: 17%;
+      max-height: 17%;
+    }
+
+}  
